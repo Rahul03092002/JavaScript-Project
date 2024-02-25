@@ -1,0 +1,83 @@
+body{
+    background-color: rgb(102, 21, 233);
+    color:white
+}
+
+#main{
+    display: flex;
+
+    flex-direction: column;
+    align-items: center;
+}
+    
+#red{
+    height: 100px;
+    width: 100px;
+    border: 4px rgb(95, 93, 93) solid;
+    background-color: red;
+    margin:5px
+}
+#green{
+    height: 100px;
+    width: 100px;
+    border: 4px rgb(95, 93, 93) solid;
+    background-color: green;
+    margin:5px
+}
+#blue{
+    height: 100px;
+    width: 100px;
+    border: 4px rgb(95, 93, 93) solid;
+    background-color: blue;
+    margin:5px
+}
+#yellow{
+    height: 100px;
+    width: 100px;
+    border: 4px rgb(95, 93, 93) solid;
+    background-color: yellow;
+    margin:5px
+}
+#pink{
+    height: 100px;
+    width: 100px;
+    border: 4px rgb(95, 93, 93) solid;
+    background-color: pink;
+    margin:5px;
+}
+#orange{
+    height: 100px;
+    width: 100px;
+    border: 4px rgb(95, 93, 93) solid;
+    background-color: orange;
+    margin:5px;
+}
+
+p{
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: rgb(49, 170, 150);
+}
+
+button{
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: rgb(31, 77, 202);
+    border-radius: 10px;
+}
+
+
+
+.color {
+    display: grid;
+    grid-template-columns: auto auto auto ;
+    gap: 10px;
+   
+    padding: 10px;
+  }
+  
+  

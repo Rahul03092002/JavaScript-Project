@@ -1,0 +1,57 @@
+body{
+background-color: rgb(24, 165, 118);
+}
+
+.bmi{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    
+    font-size: 18px;
+    font-weight: bold;
+    font-variant: small-caps;
+    align-items: center;
+    justify-content: center;
+}
+
+form >p>input{
+    background-color: rgb(31, 99, 70);
+    color: rgb(222, 250, 226);
+    height:20px;
+    font-size: 15px;
+    font-weight: bold;
+    font-variant: small-caps;
+}
+
+#WeightGuide{
+    align-items: center;
+    justify-content: center;
+}
+
+
+#home{
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: rgb(31, 77, 202);
+    border-radius: 10px;
+    margin-top: 25px;
+}
+
+#calculate{
+    height: 40px;
+    width: 130px;
+    background-color: rgb(80, 201, 164);
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: rgb(31, 77, 202);
+    border-radius: 10px;
+    margin: 25px;
+}
+

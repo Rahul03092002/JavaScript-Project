@@ -1,0 +1,48 @@
+
+body{
+    margin:0px;
+    padding: 0px;
+}
+#guess{
+    background-image:url("/img/gu.jpg");
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color:rgb(233, 116, 7);
+    height:700px;
+   }
+p{
+    font-size: 20px;
+}
+   h3{
+    color: rgb(250, 8, 8);
+    font-size: 30px;
+   }
+
+   form > input {
+    background-color: rgb(29, 149, 230);
+    color: rgb(3, 2, 2);
+    border-radius: 8px;
+    height:30px;
+    
+    font-weight: bold;
+
+   }
+
+
+#home {
+    height: 40px;
+    width: 90px;
+    font-size: 20px;
+    font-weight: bold;
+    font-variant: small-caps;
+    color: rgb(31, 77, 202);
+    
+    border-radius: 10px;
+    margin-top:5px;
+    margin-bottom: 20px;
+}
