@@ -1,13 +1,13 @@
 
 body{
-    margin: 0px;
+    margin: 0px;height: auto;
+    width: auto;
+    background-color: rgb(255, 196, 196);
 }
 #main{
     display: flex;
     flex-direction: column;
-   height: 700px;
-    width: auto;
-    background-image: url(img/R.jpg);
+   
 align-items: center;
 gap: 10px;
  }

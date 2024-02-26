@@ -4,7 +4,7 @@ body{
     padding: 0px;
 }
 #guess{
-    background-image:url("/img/gu.jpg");
+   
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -12,8 +12,9 @@ body{
     font-size: 20px;
     font-weight: bold;
     font-variant: small-caps;
-    color:rgb(233, 116, 7);
+    color:rgb(255, 126, 5);
     height:700px;
+    background-color: rgb(240, 220, 196);
    }
 p{
     font-size: 20px;
